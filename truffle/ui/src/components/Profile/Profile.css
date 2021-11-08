@@ -1,0 +1,55 @@
+.sub-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+
+.sub-menu button {
+    color: black; 
+    background-color: white; 
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #03BFCB;
+    border-radius: 20px;
+  }
+  
+  .sub-menu button:hover {
+    background-color: #03BFCB; /* Green 4CAF50 */
+    color: white;
+  }
+
+.user-item-list {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 10px 0;
+justify-content: flex-start
+}
+.user-profile-card {
+  display: flex;
+  flex-direction: column;
+    width: 90%;
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+
+.item-pricee {
+	margin-top: 10px;
+  display: block;
+  }
+
+
+
